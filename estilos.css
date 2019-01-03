@@ -1,0 +1,136 @@
+@media only screen and (max-width:400px) 
+{ body {
+    background-color: #f09a9d
+}
+}
+
+/*Esto es para TABLET */
+
+@media only screen and (min-width:401px) and (max-width:960px){
+
+     .sing-up,
+    .feature-one,
+    .feature-two, 
+    .feature-tree
+    {width: 50%}
+    
+
+}
+
+/*Esto es para DESKTOP */
+
+@media only screen and (min-width:961px) 
+{ 
+    .page {
+        width: 960px;
+        margin: 0 auto;}
+
+    .feature-one,
+    .feature-two, 
+    .feature-tree 
+    {width: 33.3%}
+
+    .header { height: 400px;}
+
+}@media only screen and (max-width:400px) 
+{ body {
+    background-color: #f09a9d
+}
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+header {
+    width: 100%;
+    background: black;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    border-color: yellow;
+}
+
+.ancho{
+    width: 80%;
+    height: 70px;
+    background:black;
+    margin: auto;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    background:black;
+    float: left;
+    padding-top: 13px;
+    box-sizing: border-box;
+    font-family: 'Sedgwick Ave', cursive;
+    
+}
+.logo p a{
+color: yellow;
+font-size: 35px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    background: black;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color:white;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    
+}
+
+nav ul li a:hover{
+    color: yellow; 
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    background: black
+}
+
+.contenedor-imagenes{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
